@@ -5,7 +5,7 @@ The data are presented in the file test_bundle_dataset.cvs and have the followin
 - `bundle` - app ID. There are 2 bundle types: numeric (e.g., 1550782147) for iOS and string (e.g., com.miui.cleaner) for Android.
 - `channel_type` - traffic source type: `app`, `ctv`, `web`, `mob_web`.
 - `ssp` - name of the SSP where traffic was biught.
-- `bid` - number of bid requests.
+- `bid` - number of bids.
 - `imps` - number of impressions.
 
 There are 3 tasks to analyse data with `channel_type==app`:
